@@ -1,3 +1,6 @@
-function changeBackgroundColor(color) {
-	document.body.style.backgroundColor = color;
+function changeBackgroundColor() {
+	if(document.body.style.backgroundColor== 'blue')
+		document.body.style.backgroundColor = 'yellow';
+	else
+		document.body.style.backgroundColor = 'blue';
 }
